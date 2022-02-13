@@ -1,0 +1,60 @@
+body {
+    background-image: url(https://source.unsplash.com/1400x700/?nature,weather);
+    background-repeat: no-repeat;
+}
+
+.content{
+   
+    width: 90%;
+    margin-top : 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+
+}
+
+#map > h2{
+    font-weight: bolder;
+    color : orangered
+
+}
+
+#text{
+    color: orangered;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 400px;
+  }
+  .mapouter {
+    position: relative;
+    text-align: right;
+    height: 200px;
+    width: 300px;
+  }
+
+  .other{
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    color: orangered;
+    font-size: 1.2em;
+}
+#day{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#otherlogo{
+    height: 70px;
+    width: 70px;
+}
